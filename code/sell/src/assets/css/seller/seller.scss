@@ -1,0 +1,183 @@
+@import '../mixin.scss';
+
+#seller {
+	position: absolute;
+	top: 174px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	.overview {
+		position: relative;
+		padding: 18px 18px 0 18px;
+		.title {
+			margin-bottom: 8px;
+			line-height: 14px;
+			font-size: 14px;
+			color: rgb(7,17,27);
+		}
+		.desc {
+			padding-bottom: 18px;
+			color: rgb(77,85,93);
+			font-size: 0;
+			@include onePx(rgba(7,17,27,.1))
+			.star {
+				margin-right: 8px;
+				display: inline-block;
+			}
+			.text {
+				margin-right: 12px;
+				display: inline-block;
+				vertical-align: top;
+				line-height: 15px;
+				font-size: 10px;
+			}
+		}
+		ul {
+			padding: 18px 0;
+			display: flex;
+			.block {
+				flex: 1;
+				text-align: center;
+				border-right: 1px solid rgba(7,17,27,.1);
+				&:last-child {
+					border: none;
+				}
+				.text {
+					margin-bottom: 4px;
+					line-height: 10px;
+					font-size: 10px;
+					color: rgb(147,153,159);
+				}
+				.num {
+					line-height: 24px;
+					font-size: 24px;
+					color: rgb(7,17,27);
+					.unit {
+						font-size: 10px;
+					}
+				}
+			}
+		}
+		.favorite {
+			position: absolute;
+			top: 18px;
+			right: 18px;
+			width: 36px;
+			text-align: center;
+			.icon-favorite {
+				display: block;
+				margin-bottom: 4px;
+				line-height: 24px;
+				font-size: 24px;
+				color: #d5d7da;
+				&.active {
+					color: rgb(240,20,20);
+				}
+			}
+			.text {
+				line-height: 10px;
+				font-size: 10px;
+				color: rgb(77,85,93);
+			}
+		}
+	}
+	.bulletin-wrapper {
+		padding: 18px 18px 0 18px;
+		.title {
+			margin-bottom: 8px;
+			line-height: 14px;
+			font-size: 14px;
+			color: rgb(7,17,27);
+		}
+		.bulletin {
+			padding: 0 12px 16px;
+			line-height: 24px;
+			font-size: 12px;
+			color: rgb(240,20,20);
+			@include onePx(rgba(7,17,27,.1));
+		}
+		ul {
+			.supports-item {
+				padding: 16px 12px;
+				font-size: 0;
+				@include onePx(rgba(7,17,27,.1));
+				&:last-child {
+					@include borderNo();
+				}
+				.icon {
+					margin-right: 6px;
+					display: inline-block;
+					vertical-align: top;
+					width: 16px;
+					height: 16px;
+					background-size: 16px 16px;
+					background-repeat: no-repeat;
+					&.decrease {
+						@include image('../../components/seller/img/decrease_4');
+					}
+					&.discount {
+						@include image('../../components/seller/img/discount_4');
+					}
+					&.guarantee {
+						@include image('../../components/seller/img/guarantee_4');
+					}
+					&.invoice {
+						@include image('../../components/seller/img/invoice_4');
+					}
+					&.special {
+						@include image('../../components/seller/img/special_4');
+					}
+				}
+				.text {
+					display: inline-block;
+					vertical-align: top;
+					line-height: 16px;
+					font-size: 12px;
+					color: rgb(7,17,27);
+				}
+			}
+		}
+	}
+	.pics {
+		padding: 18px;
+		.title {
+			margin-bottom: 12px;
+			line-height: 14px;
+			font-size: 14px;
+			color: rgb(7,17,27);
+		}
+		.pic-wrapper {
+			width: 100%;
+			font-size: 0;
+			overflow: hidden;
+			.pic-list {
+				white-space: nowrap;
+				.pic-item {
+					display: inline-block;
+					margin-right: 6px;
+				}
+			}
+		}
+	}
+	.info {
+		padding: 18px 18px 0 18px;
+		.title {
+			padding-bottom: 12px;
+			line-height: 14px;
+			font-size: 14px;
+			color: rgb(7,17,27);
+			@include onePx(rgba(7,17,27,.1));
+		}
+		.info-item {
+			padding: 16px 12px;
+			line-height: 16px;
+			font-size: 12px;
+			color: rgb(7,17,27);
+			@include onePx(rgba(7,17,27,.1));
+			&:last-child {
+				@include borderNo();
+			}
+		}
+	}
+}

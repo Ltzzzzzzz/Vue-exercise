@@ -1,0 +1,37 @@
+//总入口
+
+@import './reset.scss';
+@import './icon.scss';
+
+//header
+@import './header/header.scss';
+
+//mixin 
+@import './mixin.scss';
+
+//star 
+@import './star/star.scss';
+
+//tab
+@import './tab/tab.scss';
+
+//goods
+@import './goods/goods.scss';
+
+//shopcart
+@import './shopcart/shopcart.scss';
+
+//cartcontrol
+@import './cartcontrol/cartcontrol.scss';
+
+//detail
+@import './detail/detail.scss';
+
+//ratingselect
+@import './ratingselect/ratingselect.scss';
+
+//ratings 
+@import './ratings/ratings.scss';
+
+//seller 
+@import './seller/seller.scss';
