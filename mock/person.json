@@ -1,0 +1,164 @@
+{
+	"name": {
+		"nameCN": "刘添璋",
+		"motto": "Life doesn't get easier, you just get stronger",
+		"job": "一名前端开发",
+		"mail": "495236549@qq.com"
+	},
+	"info": {
+		"age": 25,
+		"edu": "本科",
+		"site": "中山",
+		"status": "离职",
+		"text": "您好，我叫xxx，坐标中山。 我并不是计算机专业，但对前端很感兴趣，所以自学前。<br/>目前在学微信小程序制作。 <br/>在上一家公司，本人主要负责整个页面的前端开发，配合后台人员实现产品前端界面效果与功能。<br/>写过响应式页面，移动端页面，pc端页面。<br/>不浮躁，喜欢前端，执行力，学习能力都棒棒哒！"
+	},
+	"skill": [
+		{
+			"name": "DIV+CSS",
+			"degree": "80%"
+		},
+		{
+			"name": "JS",
+			"degree": "50%"
+		},
+		{
+			"name": "jQuery",
+			"degree": "65%"
+		},
+		{
+			"name": "VUE",
+			"degree": "50%"
+		},
+		{
+			"name": "Photoshop",
+			"degree": "30%"
+		},
+		{
+			"name": "BootStrap",
+			"degree": "45%"
+		},
+		{
+			"name": "webpack",
+			"degree": "25%"
+		}
+	],
+	"experience": [
+		{
+			"name": "中山冠宇网络科技有限公司",
+			"time": "2017/6-2018/10",
+			"position": "前端开发",
+			"duty": [
+				"负责PC端移动端页面制作，PSD切图后构建页面框架",
+				"参与公司项目随听听的制作，配合后台开发人员实现前后端交互",
+				"维护项目页面代码，代码调试",
+				"工作之余开始自学vue.js"
+			]
+		}
+	],
+	"works": [
+		{
+			"name": "早安设计（自适应）（已上线)",
+			"link": "http://www.zaoansheji.com",
+			"desc": "这是一款设计公司的官网，湖北武汉早安设计顾问，专业LOGO设计，包装设计，品牌策划，企业VI，品牌定位，企业全案，海报设计，品牌提升，形象创建，礼盒画册设计，PTT设计，企业APP制作，策划公司，快消食品设计！",
+			"duty": "根据客户提供的PSD进行切图，还原设计稿，页面动态效果的实现",
+			"main": [
+				"基于DIV+CSS页面布局",
+				"通过CSS3实现页面的动态效果，使页面体现的更加丰满",
+				"通过Ajax调用后台数据显示在页面",
+				"通过jQuery实现某些功能的逻辑处理和某些页面的动态效果",
+				"运用swiper框架进行部分页面的设计"
+			]
+		},
+		{
+			"name": "墨宽投资（自适应）（已上线）",
+			"link": "https://aqua-platform.com",
+			"desc": "这是一个人工智能技术为核心的量化基金公司网站",
+			"duty": "根据客户提供的PSD进行切图，还原设计稿，页面动态效果的实现，这个项目只做页面开发，本人独立完成",
+			"main": [
+				"基于DIV+CSS页面布局",
+				"通过CSS3实现页面的动态效果，使页面体现的更加丰满",
+				"通过jQuery实现某些页面的动态效果",
+				"运用swiper框架进行部分页面的设计"
+			]
+		},
+		{
+			"name": "坦行汽车（自适应）（已上线）",
+			"link": "http://www.zjtanxing.com",
+			"desc": "这是一个网约车公司的官网",
+			"duty": "根据公司设计师给出的PSD进行页面开发，以及留言表单的交互",
+			"main": [
+				"基于DIV+CSS页面布局",
+				"通过Ajax提交留言信息到后台",
+				"运用腾讯地图API",
+				"运用Bootstrap框架进行部分页面的设计"
+			]
+		},
+		{
+			"name": "西南科技大学后勤服务信息网（PC端）（已上线）",
+			"link": "http://www.houqin.swust.edu.cn",
+			"desc": "西南科技大学后勤服务信息网",
+			"duty": "此项目为团队项目，本人只负责页面布局",
+			"main": [
+				"基于DIV+CSS页面布局",
+				"原生JS写轮播图"
+			]
+		},
+		{
+			"name": "随听听（移动端）（已上线）",
+			"link": "http://www.suitingting.com",
+			"desc": "用于播放微信文章和新闻，听内容。有网址的网页，都可以朗读出其中的文字内容。吃饭、跑步、睡觉前等场景，都可以用听来代替阅读",
+			"duty": "此项目为团队项目，本人负责页面开发、复制粘贴文字播放功能以及提交留言功能的开发",
+			"main": [
+				"基于DIV+CSS页面布局",
+				"运用百度语音进行语音播放",
+				"利用Ajax向后台提交留言"
+			]
+		},
+		{
+			"name": "粥品香坊（webapp）",
+			"link": "http://htmlpreview.github.io/?https://github.com/rhtech-ltz/project/blob/master/sell/index.html",
+			"desc": "vue2.0+webpack+es6+vue-router+组件化实现的单页应用",
+			"duty": "该项目为个人项目，学习vue时写的一个demo，资源加载有些慢，推荐使用手机浏览器打开，代码都在Github上",
+			"main": [
+				"该项目大量应用了vue2.0框架布局",
+				"运用了vue-cli来构建项目",
+				"运用了es6新语法进行编译，同时进行组件化",
+				"将mock数据放在GitHub上，利用axios获取数据，展示到页面",
+				"运用HTML5中的localstorage进行本地存储",
+				"运用better-scroll实现页面的流畅滑动",
+				"运用Sass CSS预处理器"
+			]
+		},
+		{
+			"name": "计划表",
+			"link": "http://htmlpreview.github.io/?https://github.com/rhtech-ltz/project/blob/master/mission/index.html#/home",
+			"desc": "vue2.0+webpack+vuex+vue-router+组件化实现的单页应用",
+			"duty": "该项目为个人项目，学习vue初期写的一个demo",
+			"main": [
+				"运用elementUI框架进行页面部分设计",
+				"运用vuex进行数据管理",
+				"运用animate.min.css实现动画效果"
+			]
+		}
+	],
+	"contact":[
+		{
+			"qq": "495236549"
+		},
+		{
+			"wx": "495236549"
+		},
+		{
+			"github": "https://github.com/rhtech-ltz"
+		},
+		{
+			"desc": [
+				"学习是一个充实愉悦的过程",
+				"喜欢尝试，期待新鲜事物",
+				"前端即兴趣，兴趣即未来",
+				"行路有良友，便是捷径",
+				"带上我吧，一起看到更大的世界"
+			]
+		}
+	]
+}
