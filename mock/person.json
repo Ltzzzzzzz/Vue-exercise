@@ -46,8 +46,16 @@
 			"degree": "45%"
 		},
 		{
+			"name": "sass",
+			"degree": "50%"
+		},
+		{
 			"name": "webpack",
 			"degree": "25%"
+		},
+		{
+			"name": "git",
+			"degree": "50%"
 		}
 	],
 	"experience": [
