@@ -26,32 +26,32 @@
 			"degree": "80%"
 		},
 		{
-			"name": "JS",
-			"degree": "50%"
-		},
-		{
-			"name": "jQuery",
-			"degree": "65%"
-		},
-		{
-			"name": "VUE",
-			"degree": "50%"
+			"name": "BootStrap",
+			"degree": "45%"
 		},
 		{
 			"name": "Photoshop",
 			"degree": "30%"
 		},
 		{
-			"name": "BootStrap",
-			"degree": "45%"
+			"name": "webpack",
+			"degree": "25%"
+		},
+		{
+			"name": "jQuery",
+			"degree": "65%"
 		},
 		{
 			"name": "sass",
 			"degree": "50%"
 		},
 		{
-			"name": "webpack",
-			"degree": "25%"
+			"name": "JS",
+			"degree": "50%"
+		},
+		{
+			"name": "VUE",
+			"degree": "50%"
 		},
 		{
 			"name": "git",
