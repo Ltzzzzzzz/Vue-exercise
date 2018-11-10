@@ -4,7 +4,8 @@
 		"motto": "Life doesn't get easier, you just get stronger",
 		"job": "一名前端开发",
 		"mail": "495236549@qq.com",
-		"me": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/pic.jpg"
+		"me": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/pic.jpg",
+		"bg": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/bg.png"
 	},
 	"info": {
 		"age": "25",
