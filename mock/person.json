@@ -146,7 +146,7 @@
 		},
 		{
 			"name": "粥品香坊",
-			"link": "http://htmlpreview.github.io/?https://github.com/rhtech-ltz/project/blob/master/sell/index.html",
+			"link": "http://120.78.179.93/sell",
 			"desc": "vue2.0+webpack+es6+vue-router+组件化实现的单页应用",
 			"duty": "该项目为个人项目，学习vue时写的一个demo，资源加载有些慢，推荐使用手机浏览器打开，代码都在Github上",
 			"src": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/120.78.179.93_sell_.png",
@@ -162,7 +162,7 @@
 		},
 		{
 			"name": "计划表",
-			"link": "http://htmlpreview.github.io/?https://github.com/rhtech-ltz/project/blob/master/mission/index.html#/home",
+			"link": "http://120.78.179.93/mission",
 			"desc": "vue2.0+webpack+vuex+vue-router+组件化实现的单页应用",
 			"duty": "该项目为个人项目，学习vue初期写的一个demo",
 			"src": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/120.78.179.93_mission_.png",
