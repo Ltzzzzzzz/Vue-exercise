@@ -113,7 +113,7 @@
 			"link": "http://www.zjtanxing.com",
 			"desc": "这是一个网约车公司的官网",
 			"duty": "根据公司设计师给出的PSD进行页面开发，以及留言表单的交互",
-			"src": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/www.zjtanxing.com_.png",
+			"src": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/www.zjtanxing.com.png",
 			"main": [
 				"基于DIV+CSS页面布局",
 				"通过Ajax提交留言信息到后台",
