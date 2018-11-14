@@ -100,7 +100,7 @@
 			"link": "https://aqua-platform.com",
 			"desc": "这是一个人工智能技术为核心的量化基金公司网站",
 			"duty": "根据客户提供的PSD进行切图，还原设计稿，页面动态效果的实现，这个项目只做页面开发，本人独立完成",
-			"src": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/-aqua-platform.com_.png",
+			"src": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/aqua-platform.com.png",
 			"main": [
 				"基于DIV+CSS页面布局",
 				"通过CSS3实现页面的动态效果，使页面体现的更加丰满",
@@ -137,7 +137,7 @@
 			"link": "http://www.suitingting.com",
 			"desc": "用于播放微信文章和新闻，听内容。有网址的网页，都可以朗读出其中的文字内容。吃饭、跑步、睡觉前等场景，都可以用听来代替阅读",
 			"duty": "此项目为团队项目，本人负责页面开发、复制粘贴文字播放功能以及提交留言功能的开发",
-			"src": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/www.suitingting.com_.png",
+			"src": "https://raw.githubusercontent.com/rhtech-ltz/project/master/mock/images/www.suitingting.com.png",
 			"main": [
 				"基于DIV+CSS页面布局",
 				"运用百度语音进行语音播放",
