@@ -5,7 +5,7 @@
   "author": "tianzhang <495236549@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 192.168.0.108 --open",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --open",
     "start": "npm run dev",
     "build": "node build/build.js"
   },
