@@ -35,7 +35,7 @@ namespace Routine.Api.Controllers
             return Ok(companyDtos);
         }
 
-        [HttpGet("{companyId}")] // api/Companies/{companyId}
+        [HttpGet("{companyId}"), ActionName(nameof(GetCompany))] // api/Companies/{companyId}
         public async Task<ActionResult<CompanyDto>> GetCompany(Guid companyId)
         {
             // 并发量大的时候有可能会出错
@@ -61,7 +61,7 @@ namespace Routine.Api.Controllers
             // post 需要返回201状态码
             var entity = _mapper.Map<Company>(company);
             _companyRepository.AddCompany(entity);
-            var b = await _companyRepository.SaveAsync();
+            await _companyRepository.SaveAsync();
             var returnDto = _mapper.Map<CompanyDto>(entity);
             return CreatedAtAction(nameof(GetCompany), new { companyId = returnDto.Id }, returnDto);
         }

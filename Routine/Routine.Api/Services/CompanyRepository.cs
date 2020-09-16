@@ -72,7 +72,7 @@ namespace Routine.Api.Services
             }
 
             company.Id = Guid.NewGuid();
-            if (company.Employees != null)
+            if (company.Employees.Count > 0)
             {
                 foreach (var employee in company.Employees)
                 {
@@ -131,7 +131,6 @@ namespace Routine.Api.Services
                 employees = employees.Where(e => e.FirstName.Contains(q) || e.LastName.Contains(q) || e.EmployeeNo.Contains(q));
             }
 
-
             return await employees.OrderBy(e=>e.EmployeeNo).ToListAsync();
         }
 
@@ -165,12 +164,10 @@ namespace Routine.Api.Services
             employee.CompanyId = companyId;
             _context.Employees.Add(employee);
         }
-
         public void UpdateEmployee(Employee employee)
         {
 
         }
-
         public void DeleteEmployee(Employee employee)
         {
             if (employee == null)

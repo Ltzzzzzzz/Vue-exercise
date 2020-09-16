@@ -19,6 +19,8 @@ namespace Routine.Api.Profiles
                     opt => opt.MapFrom(src => src.Gender.ToString()))
                 .ForMember(dest => dest.Age,
                     opt => opt.MapFrom(src => GetAge(src.DateOfBirth)));
+
+            CreateMap<EmployeeAddDto, Employee>();
         }
 
         private int GetAge(DateTime birthDate)
